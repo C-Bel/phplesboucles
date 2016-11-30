@@ -1,9 +1,9 @@
 <?php
-      $ici = 0;
-      $ici = 15;
-      for ($la = 0; $la < 20 ; $la++) {
-      $result = $la * $ici;
-      echo $result . "<br>";
-      }
+$ici = 0;
+$la = 15;
+   for ($ici = 0; $ici < 20 ; $ici++) {
+     $result = $ici * $la;
+     echo $result . "<br>";
+   }
 
  ?>
